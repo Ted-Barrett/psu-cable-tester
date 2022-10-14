@@ -84,8 +84,6 @@ if __name__ == "__main__":
 
     connectors = parse_connectors(lines)
 
-    print(connectors)
-
     print(len(connectors), "unique connectors detected.")
     print("Checking for incompatibilities.\n")
 
