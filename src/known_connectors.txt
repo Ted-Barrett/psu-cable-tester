@@ -1,0 +1,90 @@
+# Orient with the securing clip on top.
+# Pins with two blocked corners should have
+# the blocked corners on the bottom.
+#
+# 0: no blockers
+# 1: blocked corners
+
++ EVGA SUPERNOVA 750
+
+> SATA
+001
+110
+
+> CPU
+1001
+0110
+
+> VGA
+0011
+1110
+
+> PERIF
+001
+110
+
+> MB1
+110011001
+001100110
+
+> MB2
+11001
+00110
+
++ CORSIAR SF750
+
+> ATX1
+110011001
+001100110
+
+> ATX2
+11001
+00110
+
+> SATA
+001
+110
+
+> CPU and PCIE
+1001
+0110
+
++ MSI a850gf
+
+> MOTHERBOARD (small)
+11001
+00110
+
+> CPU
+1001
+0110
+
+> VGA
+1001
+0110
+
+> PERIPHERAL & SATA
+001
+110
+
+> MOTHERBOARD (large)
+110011001
+001100110
+
++ GPUS
+
+> ZOTAC 2060 AMP 8 PIN
+0011
+1110
+
+> GIGABYTE 2060 6 PIN
+011
+110
+
+> MSI 2060 VENTUS OC 8 PIN
+0011
+1110
+
+> Fake
+0101
+0101
