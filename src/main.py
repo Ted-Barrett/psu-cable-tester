@@ -85,7 +85,7 @@ if __name__ == "__main__":
     connectors = parse_connectors(lines)
 
     print(len(connectors), "unique connectors detected.")
-    print("Checking for incompatibilities.\n")
+    print("Checking for incompatibilities:\n")
 
     for male in connectors:
         female = ("100110011001", "011001100110")
